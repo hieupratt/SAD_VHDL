@@ -88,7 +88,7 @@ enj <= '1' when state = S9 else '0';
 init <= '0' when state = S0 else '1';
 RE_A <= '1' when state = S4 else '0';
 RE_B <= '1' when state = S4 else '0';
-sign <= '1' when state = S6 else '0';
+sign <= '0' when state = S6 else '1';
 EnA <= '1' when state = S8 else '0';
 Done <= '1' when state = S11 else '0'; 
 EnPlus <= '1' when state = S8 else '0';
