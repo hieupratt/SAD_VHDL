@@ -22,7 +22,7 @@ entity SAD is
 end SAD;
 
 architecture R of SAD is
-    -- Khai b·o c·c tin hieu
+    -- Khai b√°o c√°c tin hieu
     signal LD_i, LD_j : std_logic;
     signal Eni, Enj,EnA,EnPlus : std_logic;
     signal Init, sign : std_logic;
